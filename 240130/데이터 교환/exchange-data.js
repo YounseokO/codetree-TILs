@@ -1,0 +1,11 @@
+let a = 5, b = 6, c = 7;
+let tempData1 = 0;
+let tempData2 = 0;
+tempData1 = b;
+tempData2 = c;
+b = a;
+c = tempData1;
+a = tempData2;
+console.log(a);
+console.log(b);
+console.log(c);
