@@ -7,7 +7,7 @@ var avr = 0;
 for(var i = 0; i < input.length; i++){
     sum += Number(input[i]);
 }
-avr = (sum/input.length);
+avr = (sum/3);
 console.log(sum);
 console.log(avr);
 console.log(sum - avr);
