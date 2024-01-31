@@ -8,6 +8,6 @@ let b = Number(n[1]);
 if(a>b){
     console.log(a*b);
 }else{
-    let temp = (b/a).toFixed(0);
+    let temp = (b/a).floor(0);
     console.log(temp);
 }
