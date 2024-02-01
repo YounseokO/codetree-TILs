@@ -11,8 +11,9 @@ let val = 0;
 
 if(A == 10){
     //10진수 -> N진수
+    N = Number(N);
     val = N.toString(B);
-    console.log(val)
+    console.log(val);
 }else if(B == 10){
     //N진수 -> 10진수
     val = parseInt(N , A);
