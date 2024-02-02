@@ -5,7 +5,7 @@ input = input.split(/\n/);
 
 let cnt = 0;
 for(var i = 0; i < input.length; i++){
-    if(input[i]%2 == 0){
+    if(Number(input[i])%2 == 0){
         cnt += 1;
     }
 }
