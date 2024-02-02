@@ -6,7 +6,7 @@ input = input.split(/\n/);
 let cen = Number(input[0]);
 let Arr = new Array();
 for(var i = 0; i < cen; i++){
-    Arr.push(Number(input[i+2]));
+    Arr.push(Number(input[i+1]));
 }
 
 for(var j = 0; j < Arr.length; j++){
