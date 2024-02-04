@@ -5,7 +5,7 @@ a = Number(a);
 
 let count = 1;
 while(a > 1){
-    a /= count;
+    a = Math.floor(a/count);
     if(a>1){
         count++;
     }
