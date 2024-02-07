@@ -8,7 +8,7 @@ let b = input[2].split(/\s/);
 let answ = "No";
 
 for(var i = 0; i < a.length; i++){
-    if((answ == "Yes")&&((a.length - i) < b.length)){
+    if((answ == "Yes")||((a.length - i) < b.length)){
         break;
     }else if(a[i]== b[0]){
         for(var x = 1; x < b.length; x++){
