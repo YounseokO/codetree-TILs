@@ -8,7 +8,7 @@ intNum = intNum.reverse();
 
 let val = "";
 for(var i = 0; i < n; i++){
-    if(intNum[i]%2 == 0){
+    if(Number(intNum[i])%2 == 0){
         val += intNum[i] + " ";
     }
 }
