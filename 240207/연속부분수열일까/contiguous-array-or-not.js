@@ -20,6 +20,8 @@ for(var i = 0; i < a.length; i++){
         if(answ == "Yes"){
             break;
         }
+    }else if(i > b.length){
+        break;
     }
 }
 
