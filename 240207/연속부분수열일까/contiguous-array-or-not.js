@@ -17,10 +17,7 @@ for(var i = 0; i < a.length; i++){
                 break;
             }
         }
-        if(answ == "Yes"){
-            break;
-        }
-    }else if(i > b.length){
+    }else if((answ == "Yes")&&(i >= b.length)){
         break;
     }
 }
