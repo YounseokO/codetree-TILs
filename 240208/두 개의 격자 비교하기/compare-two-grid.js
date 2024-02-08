@@ -8,8 +8,8 @@ let arr2 = "";
 let val = "";
 let leng = ((input.length-1)/2);
 for(var i = 1; i <= leng; i++){
-    arr1 = input[i].trim().split(/\s/);
-    arr2 = input[i+leng].trim().split(/\s/);
+    arr1 = input[i].split(/\s/);
+    arr2 = input[i+leng].split(/\s/);
     for(var j = 0; j < arr1.length; j++){
         if(arr1[j] == arr2[j]){
             val += "0 ";
