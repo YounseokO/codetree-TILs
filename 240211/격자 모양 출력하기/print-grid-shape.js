@@ -8,8 +8,8 @@ let a = 0;
 let b = 0;
 for(var i = 1; i < input.length; i++){
     tempData = input[i].trim().split(/\s/);
-    a = tempData[0];
-    b = tempData[1];
+    a = Number(tempData[0]);
+    b = Number(tempData[1]);
 
     Arr[a-1][b-1] = a * b;
     
