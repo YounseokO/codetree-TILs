@@ -7,7 +7,7 @@ let tempData = "";
 let a = 0;
 let b = 0;
 for(var i = 1; i < input.length; i++){
-    tempData = input[i].split(/\s/);
+    tempData = input[i].trim().split(/\s/);
     a = tempData[0];
     b = tempData[1];
 
