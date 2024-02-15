@@ -3,7 +3,7 @@ const fs = require("fs");
 let a = fs.readFileSync(0).toString().trim().split(/\n/);
 
 let n = Number(a[0]);
-let word = a[a.length-1].trim();
+let word = a[n+1].trim();
 
 let cnt = 0;
 let cntWord = 0;
