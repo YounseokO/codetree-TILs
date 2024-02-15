@@ -1,9 +1,9 @@
 const fs = require("fs");
 
-let a = fs.readFileSync(0).toString().trim().split(/\n/);
+let a = fs.readFileSync(0).toString().trim().split("\n");
 
-let n = Number(a[0].trim());
-let word = a[a.length-1].trim();
+let n = Number(a[0]);
+let word = a[a.length-1];
 
 let cnt = 0;
 let cntWord = 0;
