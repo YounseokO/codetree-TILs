@@ -7,12 +7,11 @@ let word = a[n+1].trim();
 
 let cnt = 0;
 let cntWord = 0;
-for(var i = 1 ; i < n; i++){
-    if(a[i][0] == word){
+for(var i = 1 ; i <= n; i++){
+    if(a[i].trim()[0] == word){
         cntWord++;
         cnt += a[i].trim().length;
-    }
-    
+    }    
 }
 
 
