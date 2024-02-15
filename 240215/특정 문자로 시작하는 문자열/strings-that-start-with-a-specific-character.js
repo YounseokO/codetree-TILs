@@ -10,7 +10,7 @@ let cntWord = 0;
 for(var i = 1 ; i < n; i++){
     if(a[i][0] == word){
         cntWord++;
-        cnt += a[i].length;
+        cnt += a[i].trim().length;
     }
     
 }
