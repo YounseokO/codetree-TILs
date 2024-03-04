@@ -12,7 +12,7 @@ for(var i = 0; i < man.length; i++){
         word.push(tempword); 
     }else{
         tempword = word.pop();
-        word = [tempword,...word]//tempword + word; 
+        word.unshift(tempword)//tempword + word; 
     }
 }
 console.log(word.join(''));
