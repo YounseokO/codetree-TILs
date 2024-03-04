@@ -10,7 +10,7 @@ let tempNum = 0;
 for(var i = 0; i < restaurants.length; i++){
     tempNum = restaurants[i] - manager;
     if(tempNum > 0){
-        sum += (tempNum/people)
+        sum += Math.floor(tempNum/people) + 1
         if(tempNum%people != 0){
             sum += 1;
         }
