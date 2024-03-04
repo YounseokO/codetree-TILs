@@ -1,7 +1,7 @@
 const fs = require("fs");
 let input = fs.readFileSync(0).toString().trim().split(/\n/);
 
-let restaurants = input[1].split(/\s/);
+let restaurants = input[1].trim().split(/\s/);
 let manager = Number(input[2].split(/\s/)[0]);
 let people = Number(input[2].split(/\s/)[1]);
 
